@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff" />
+      <stop offset="50%" stop-color="#b026ff" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Ícone Pixel / D20 Stylized -->
+  <path d="M 40 20 L 70 35 L 70 70 L 40 85 L 10 70 L 10 35 Z" fill="none" stroke="url(#neonGrad)" stroke-width="4" filter="url(#glow)"/>
+  <path d="M 40 20 L 40 85 M 10 35 L 70 70 M 70 35 L 10 70" fill="none" stroke="#00f3ff" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Texto NERDANDO -->
+  <text x="90" y="72" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="52" fill="url(#neonGrad)" filter="url(#glow)" letter-spacing="4">NERDANDO</text>
+  <text x="92" y="92" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#00f3ff" letter-spacing="8" opacity="0.8">PORTAL DO MULTIVERSO</text>
+</svg>

@@ -1,0 +1,112 @@
+.banner-destaque {
+  background: linear-gradient(rgba(11, 12, 16, 0.75), rgba(11, 12, 16, 0.9)), 
+              url('https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_802/https://hqscomcafe.com.br/wp-content/uploads/2019/05/capit%C3%A3ovshomemdeferro.jpg') center/cover;
+  padding: 70px 20px;
+  text-align: center;
+  border-bottom: 2px solid var(--neon-rosa);
+}
+
+.banner-conteudo {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.etiqueta-categoria {
+  background-color: var(--neon-rosa);
+  color: #fff;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  letter-spacing: 1px;
+}
+
+.banner-destaque h1 {
+  font-size: 2.2rem;
+  color: #fff;
+  margin: 15px 0;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.botao-neon {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 22px;
+  background-color: var(--neon-ciano);
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: var(--arredondamento-borda);
+  transition: all 0.3s ease;
+}
+
+.botao-neon:hover {
+  background-color: var(--neon-rosa);
+  color: #fff;
+  box-shadow: 0 0 15px var(--neon-rosa);
+}
+
+.secao-noticias {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.secao-noticias h2 {
+  color: var(--neon-ciano);
+  margin-bottom: 25px;
+  text-shadow: 0 0 6px var(--neon-ciano);
+}
+
+.grade-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.card-noticia {
+  background-color: var(--cor-painel-card);
+  border-radius: var(--arredondamento-borda);
+  overflow: hidden;
+  border: 1px solid rgba(0, 243, 255, 0.2);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card-noticia:hover {
+  transform: translateY(-5px);
+  border-color: var(--neon-rosa);
+}
+
+.card-noticia img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-conteudo {
+  padding: 20px;
+}
+
+.etiqueta-card {
+  color: var(--neon-ciano);
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card-conteudo h3 {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.link-noticia {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--neon-ciano);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-noticia:hover {
+  color: var(--neon-rosa);
+}
