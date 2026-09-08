@@ -186,3 +186,16 @@ blockquote.citacao {
   font-weight: bold;
   box-shadow: 0 0 10px var(--neon-ciano);
 }
+
+.video-materia {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.video-materia iframe {
+    width: 100%;
+    max-width: 560px;
+    border-radius: var(--arredondamento-borda);
+    border: 1px solid var(--neon-roxo);
+    box-shadow: 0 0 15px rgba(176, 38, 255, 0.2);
+}
